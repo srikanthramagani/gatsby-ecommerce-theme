@@ -2,7 +2,6 @@ import React from 'react';
 import * as styles from './Hero.module.css';
 import Button from '../Button';
 import { Link } from 'gatsby';
-import { toOptimizedImage } from '../../helpers/general';
 
 const Hero = (props) => {
   const {
@@ -18,7 +17,7 @@ const Hero = (props) => {
     header,
   } = props;
   return (
-    <div className={styles.root} style={{ backgroundImage: `url(${toOptimizedImage(image)})` }}>
+    <div className={styles.root} style={{ backgroundImage: url("https://foodprint.org/wp-content/uploads/2018/11/AdobeStock_133146631.jpg") }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
         {title && <h2 className={styles.title}>{title}</h2>}
