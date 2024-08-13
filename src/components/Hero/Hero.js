@@ -17,7 +17,7 @@ const Hero = (props) => {
     header,
   } = props;
   return (
-    <div className={styles.root} style={{ backgroundImage: "url("https://foodprint.org/wp-content/uploads/2018/11/AdobeStock_133146631.jpg")" }}>
+    <div style={{ backgroundImage: "url("https://foodprint.org/wp-content/uploads/2018/11/AdobeStock_133146631.jpg")" }}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
         {header && <span className={styles.header}>{header}</span>}
         {title && <h2 className={styles.title}>{title}</h2>}
