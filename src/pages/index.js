@@ -30,7 +30,7 @@ const IndexPage = () => {
       {/* Hero Container */}
       <Hero
         maxWidth={'500px'}
-        image={'/banner1.png'}
+        image={'https://media.licdn.com/dms/image/D5612AQFZCg6Ux7bOXQ/article-cover_image-shrink_720_1280/0/1687499293421?e=2147483647&v=beta&t=lQMxpVF13zdtTzKr67qJ5bOT1V96anMe_2TBDRlvp8o'}
         title={'Essentials for a cold winter'}
         subtitle={'Discover Autumn Winter 2021'}
         ctaText={'shop now'}
